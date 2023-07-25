@@ -1,0 +1,51 @@
+*{
+    Font-family: Dejavu Sans, Arial, Verdana, sans-serif;
+  }
+  main{
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  body {
+      width: 100%;
+      background: #77A1D3;  
+      background: #ADA996;
+      background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+      background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+      display: grid;
+      min-height: 100vh;
+      
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    form {
+      grid-gap: 2px;
+      display: flex;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    form input{
+      border-radius: 8px;
+      border-color: rgb(109, 196, 199);
+    }
+    form input:focus{
+      outline-color: rgb(0, 133, 250);
+    }
+
+#contra{
+  font-size: 14px;
+}
+
+.col-12 a{
+  text-decoration: none;
+  color: #ADA996;
+}
+
+.col-12 a:hover{
+  text-decoration: underline;
+  color: black;
+}
+

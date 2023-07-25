@@ -1,0 +1,22 @@
+body {
+width: 100%;
+background: #77A1D3;  
+background: #ADA996;
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+
+}
+.nav-item a:hover{
+    text-decoration: none;
+    color: rgb(109, 196, 199)
+}
+.nav-item a{
+    color: rgb(0, 133, 250);
+}
+
+.nav-items a{
+    color: red;
+}
+.nav-items a:hover{
+    color: rgb(224, 15, 15);
+}
